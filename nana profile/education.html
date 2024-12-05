@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #ffd1dc, #ffe6f2); /* Melody Sanrio Pink */
+            text-align: center;
+            color: #444;
+            padding: 20px;
+        }
+
+        /* Back Link Styling */
+        a {
+            text-decoration: none;
+            color: #ff69b4;
+            font-weight: bold;
+            font-size: 1.1em;
+            background: linear-gradient(to right, #ff99cc, #ff66b2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+
+        a:hover {
+            background: linear-gradient(to right, #ff66b2, #ff99cc);
+            transform: translateY(-3px);
+            color: white;
+        }
+
+        /* Header */
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 2.5em;
+            color: white;
+            background: linear-gradient(to right, #ff99cc, #ff66b2);
+            padding: 15px 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        /* Education Section */
+        .education-container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 40px;
+            text-align: left;
+            margin: 0 auto;
+        }
+
+        .education-item {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #ffe6f2;
+            border-left: 6px solid #ff69b4;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-item h2 {
+            margin-bottom: 10px;
+            font-size: 1.6em;
+            color: #ff69b4;
+        }
+
+        .education-item p {
+            margin: 5px 0;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .education-item ul {
+            margin: 10px 0;
+            list-style-type: square;
+            color: #444;
+            font-size: 1.1em;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .education-container {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .education-item h2 {
+                font-size: 1.4em;
+            }
+
+            .education-item p {
+                font-size: 1em;
+            }
+
+            a {
+                font-size: 1em;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Back to Home Button -->
+    <a href="index.html">← Back to Home</a>
+
+    <!-- Header -->
+    <h1>My Education</h1>
+
+    <!-- Education Section -->
+    <div class="education-container">
+        <div class="education-item">
+            <h2>Highschool</h2>
+            <p><strong>SMK SELAYANG BHARU, SELANGOR</strong></p>
+            <p>2018-2019</p>
+            <ul>
+                <li>My first highschool before exchange to another school</li>
+                <li>Member of the school’s choir team</li>
+				<li>Active in Scouts member </li>
+			
+            </ul>
+        </div>
+
+        <div class="education-item">
+            <h2>Highschool</h2>
+            <p><strong>SMK PUCHONG UTAMA 1, SELANGOR</strong></p>
+            <p>2019 - 2021</p>
+            <ul>
+                <li>My second highschool</li>
+                <li>Were in a art and culture club</li>
+				<li>Active in Police Cadets</li>
+            </ul>
+        </div>
+
+        <div class="education-item">
+            <h2>Diploma in Information Management</h2>
+            <p><strong>UiTM CAMPUS REMBAU, NEGERI SEMBILAN</strong></p>
+            <p>2022 - Present</p>
+            <ul>
+                <li>Currently pursuing specialized courses in information management</li>
+                <li>Completed internship with a local company, Bawal Exclusive</li>
+				<li>Completed in taking Muet </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

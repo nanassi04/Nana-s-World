@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nana's World</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2; /* Soft pink background */
+            color: #ff69b4; /* Hot pink text */
+        }
+
+        /* Banner Styling */
+        .banner {
+            background: linear-gradient(to right, #ff99cc, #ffb3e6);
+            padding: 15px;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size: 2.5em;
+            color: #ffffff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: #ffcce6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar a {
+            margin-bottom: 15px;
+            text-decoration: none;
+        }
+
+        .sidebar img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .sidebar img:hover {
+            transform: scale(1.2);
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            margin-left: 100px;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .card {
+            display: inline-block;
+            background: #ffe6f9;
+            border: 2px solid #ffb3e6;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            max-width: 250px;
+            aspect-ratio: 1;
+            object-fit: cover; /* Ensures the image fits without distortion */
+            border-radius: 50%;
+            border: 5px solid #ffb3e6;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h1 {
+            font-family: 'Pacifico', cursive;
+            color: #ff69b4;
+            font-size: 2em;
+            margin: 15px 0;
+        }
+
+        .card p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        /* Animation Styling */
+        .animation-container {
+            position: absolute;
+            top: 50%;
+            right: -20px;
+            transform: translate(0, -50%);
+            width: 100px;
+            height: 100px;
+            pointer-events: none;
+        }
+
+        .animation-container img {
+            width: 50px;
+            animation: float 3s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        /* Navigation Links */
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #ffffff;
+            background: linear-gradient(45deg, #ff99cc, #ff66b2);
+            padding: 10px 15px;
+            border-radius: 25px;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            background: linear-gradient(45deg, #ff66b2, #ff99cc);
+            transform: translateY(-3px);
+        }
+
+        /* Footer Styling */
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #ff66b2;
+        }
+
+        @media (max-width: 768px) {
+            .card img {
+                max-width: 200px;
+            }
+
+            .card h1 {
+                font-size: 1.8em;
+            }
+
+            .nav-links a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        Welcome to Nana's World 🌸
+    </div>
+
+    <!-- Sidebar for social media icons -->
+    <div class="sidebar">
+        <a href="https://www.instagram.com/iintanana/" target="_blank">
+            <img src="instagramicon.jpg" alt="Instagram">
+        </a>
+        <a href="https://wa.me/message/ZCARQG6CY4B2F1" target="_blank">
+            <img src="whatsappicon.jpg" alt="WhatsApp">
+        </a>
+        <a href="https://www.tiktok.com/@lorenalonely" target="_blank">
+            <img src="tiktokicon1.jpg" alt="TikTok">
+        </a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <div class="card">
+            <img src="nana2.jpg" alt="Profile Picture">
+
+            <h1>Let's Explore Nana's Pages Together 𐙚</h1>
+            <p>✿ Information Management Student ✿</p>
+            <div class="animation-container">
+                <img src="melody1.jpg">
+            </div>
+            <div class="nav-links">
+                <a href="profile.html">Profile</a>
+                <a href="experience.html">Experience</a>
+                <a href="family.html">Family</a>
+                <a href="gallery.html">Gallery</a>
+				<a href="education.html">Education</a>
+            </div>
+        </div>
+        <div class="footer">
+            © 2024 Nana's World. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

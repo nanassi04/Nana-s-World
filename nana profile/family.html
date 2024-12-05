@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        /* General Body Styling */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe4e6;
+            background-image: url('mymelody-bg.png'); /* Replace with your background image */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Page Heading Styling */
+        h2 {
+            font-family: 'Pacifico', cursive;
+            font-size: 2.5em;
+            color: white;
+            background: linear-gradient(to right, #ff99cc, #ff66b2);
+            padding: 10px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.6);
+            margin-top: 20px;
+        }
+
+        /* Back Link Styling */
+        a {
+            text-decoration: none;
+            color: #ff69b4;
+            font-weight: bold;
+            font-size: 1.1em;
+            background: linear-gradient(to right, #ff99cc, #ff66b2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+        }
+
+        a:hover {
+            background: linear-gradient(to right, #ff66b2, #ff99cc);
+            transform: translateY(-3px);
+            color: white;
+        }
+
+        /* Image Container Styling */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Centered Description Section */
+        .description {
+            max-width: 900px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: left;
+            line-height: 1.8;
+            margin: 20px auto; /* Centers the description box horizontally */
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .description h3 {
+            color: #ff69b4;
+            margin-bottom: 10px;
+        }
+
+        .description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .description ul li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            .description {
+                padding: 20px;
+            }
+
+            .image-container img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Back to Home Button -->
+    <a href="index.html">← Back to Home</a>
+
+    <!-- Page Heading -->
+    <h2>Meet My Family</h2>
+
+    <!-- Family Photos -->
+    <div class="image-container">
+        <img src="family1.jpg" alt="Family Photo">
+        <img src="family2.jpg" alt="Another Family Photo">
+    </div>
+
+    <!-- Family Description -->
+    <div class="description">
+        <h3>About My Family</h3>
+        <p>
+            My family is the most important part of my life. We are very close, and we always stand by each other through everything. Our bond is built on love, care, and trust, and we enjoy spending quality time together whenever we can.
+        </p>
+        <p>
+            <strong>My Parents:</strong> My parents are both hardworking and loving people. They do an amazing job balancing their careers and family life. No matter how busy they are, they always make time for us and support us in everything we do. They’ve taught me so many important lessons, like being honest, working hard, and helping others. Their advice and encouragement guide me every day.
+        </p>
+        <p>
+            <strong>My Younger Brothers:</strong> I have two amazing little brothers who bring so much joy and energy to our family
+        </p>
+        <ul>
+            <li><strong>Adam (18 years old):</strong>Adam is creative and full of ideas. He enjoys trying new things, whether it’s learning a new skill or starting a new project. He’s also thinking about his future and working hard to achieve his goals. I admire his ability to dream big and stay focused.He is currently taking a big examination which is SPM.</li>
+            <li><strong>Adib (8 years old):</strong> Adib is the youngest in our family and full of energy. He loves to play, explore, and ask lots of questions. His adventurous and curious nature makes life more exciting for all of us. He always knows how to make us laugh and brighten up our days.</li>
+        </ul>
+        <p>
+            As a family, we love spending time together. Whether it’s having meals, playing games, or going on trips, we enjoy every moment. We also support each other in our personal goals and celebrate each other’s achievements. The memories we create together are something I will always treasure.
+        </p>
+    </div>
+</body>
+</html>
+
+
+
